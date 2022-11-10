@@ -10,7 +10,7 @@ patch:
     mac_light:
       name: Mac浅色
       horizontal: true             # true横排，false竖排
-      candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "%c. %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
       line_spacing: 10                             # 行间距(适用于竖排)
@@ -32,7 +32,7 @@ patch:
     mac_dark:
       name: Mac深色
       horizontal: true             # true横排，false竖排
-      candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "%c. %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
       line_spacing: 10                              # 行间距(适用于竖排)
@@ -54,7 +54,7 @@ patch:
     mac_green:
       name: Mac绿
       horizontal: true             # true横排，false竖排
-      candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "%c. %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
       line_spacing: 10                              # 行间距(适用于竖排)
@@ -76,7 +76,7 @@ patch:
     mac_orange:
       name: Mac橙
       horizontal: true             # true横排，false竖排
-      candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "%c. %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
       line_spacing: 10                              # 行间距(适用于竖排)
@@ -98,7 +98,7 @@ patch:
     mac_blue:
       name: Mac浅蓝
       horizontal: true              # true横排，false竖排
-      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "%c. %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       font_point: 16                               # 候选字大小
       label_font_point: 13                         # 候选编号大小
@@ -116,7 +116,7 @@ patch:
       hilited_comment_text_color: 0x999999    # 注解文字高亮
     win10:
       horizontal: true                  # true横排，false竖排
-      candidate_format: "%c %@  "       # 如果是竖排建议改为 "%c\u2005%@"
+      candidate_format: "%c. %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16              # 候选文字大小
       label_font_point: 16        # 候选编号大小
       corner_radius: 0            # 候选条圆角
@@ -144,7 +144,7 @@ patch:
     nord_dark:
       name: 北方深色
       horizontal: true              # true横排，false竖排
-      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "%c. %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
       corner_radius: 5                         # 窗口圆角
