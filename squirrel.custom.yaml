@@ -1,7 +1,7 @@
 patch:
   show_notifications_when: always
   "style/color_scheme": mac_green
-  "style/font_face": "FlyFlowerSong"  # 字体名称，从记事本等处的系统字体对话框里能看到
+  "style/font_face": "Hiragino Sans GB,FlyFlowerSong"  # 字体名称，从记事本等处的系统字体对话框里能看到
   "style/font_point": 14  # 字号，只认数字的，不认「五号」、「小五」这样的
   "style/label_font_point": 14
   "style/horizontal": true  # 候选窗横向显示
